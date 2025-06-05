@@ -13,12 +13,15 @@
     <title>Frontend Mentor | Recipe page</title>
   </head>
   <body>
-    <main class="recipe__container">
-      <section aria-labelledby="hero-section" class="recipe__hero">
-        <img
-          src="./assets/images/image-omelette.jpeg"
-          alt="Recipe omelette image"
-        />
+    <main class="recipe">
+      <section class="recipe__hero">
+        <figure class="recipe__hero-image">
+          <img
+            src="./assets/images/image-omelette.jpeg"
+            alt="Golden omelette topped with herbs"
+          />
+          <figcaption class="visually-hidden">Omelette close-up</figcaption>
+        </figure>
       </section>
       <article class="recipe__wrapper">
         <section
@@ -36,7 +39,7 @@
             aria-labelledby="prep-time"
             class="recipe__description-preparation"
           >
-            <h3>Preparation time</h3>
+            <h2>Preparation time</h2>
             <ul>
               <li><strong>Total:</strong> Approximately 10 minutes</li>
               <li><strong>Preparation:</strong> 5 minutes</li>
@@ -98,6 +101,9 @@
             additional fillings.
           </p>
           <table>
+            <caption class="visually-hidden">
+              Nutritional values per serving
+            </caption>
             <tbody>
               <tr>
                 <td class="table-first">Calories</td>
