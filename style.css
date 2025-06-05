@@ -80,10 +80,10 @@ img {
 
 .visually-hidden {
   position: absolute;
-  width: 1px;
-  height: 1px;
+  width: 0.0625rem;
+  height: 0.0625rem;
   padding: 0;
-  margin: -1px;
+  margin: -0.0625rem;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
@@ -209,7 +209,7 @@ ul {
   }
 
   td {
-    border-bottom: 1px solid var(--color-stone-150);
+    border-bottom: 0.0625rem solid var(--color-stone-150);
     width: 50%;
   }
 
@@ -247,12 +247,12 @@ ul {
 
 @media screen and (min-width: 48rem) {
   .recipe {
-    width: 616px;
+    width: 38.5rem;
   }
 }
 
 @media screen and (min-width: 90rem) {
   .recipe {
-    width: 736px;
+    width: 46rem;
   }
 }
