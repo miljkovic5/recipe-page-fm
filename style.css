@@ -202,15 +202,15 @@ ul {
     border-collapse: collapse;
   }
 
+  td {
+    border-bottom: 0.0625rem solid var(--color-stone-150);
+    width: 50%;
+  }
+
   tr:last-child {
     td {
       border-bottom: none;
     }
-  }
-
-  td {
-    border-bottom: 0.0625rem solid var(--color-stone-150);
-    width: 50%;
   }
 
   .table-first {
